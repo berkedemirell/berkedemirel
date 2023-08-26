@@ -37,8 +37,8 @@ const Hero = () => {
            <Link className="text-slate-50 mt-44 border flex flex-row items-center justify-center border-slate-50 p-4 hover:bg-slate-50 hover:text-bblack font-bold transition-all duration-500 gap-2">Learn More <span className="shake"><ion-icon name="arrow-down-outline"></ion-icon></span></Link>
         </div>
         <div className="w-full">
-          {/* <iframe src="https://my.spline.design/untitled-b8fce33306b5bd25d6eca9d559c4ba99/" className="w-full container2 h-sphere">
-        </iframe> */}
+          <iframe src="https://my.spline.design/untitled-b8fce33306b5bd25d6eca9d559c4ba99/" className="w-full container2 h-sphere">
+        </iframe>
         </div>
       </div>
     </div>

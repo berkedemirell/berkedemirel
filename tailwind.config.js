@@ -8,6 +8,7 @@ export default {
     './src/components/Skills.jsx',
     './src/components/Projects.jsx',
     './src/components/Footer.jsx',
+    './src/components/Contact.jsx',
   ],
   theme: {
     extend: {
@@ -18,6 +19,8 @@ export default {
         'multi' : "url('./source/images/multi-step.png')",
         'rps' : "url('./source/images/rps.png')",
         'ipt' : "url('./source/images/ipt.png')",
+        'hang' : "url('./source/images/hangman.png')",
+        'pok' : "url('./source/images/pokemon.png')",
       },
       fontFamily : {
         'texturina' : ['Texturina']
@@ -32,7 +35,8 @@ export default {
         'sphere' : '35rem',
         'skill-card' : '15rem',
         'skill-container' : '20rem',
-        'wrapper' : '25rem'
+        'wrapper' : '25rem',
+        'ben' : '15rem',
 
       },
       width: {
@@ -40,15 +44,18 @@ export default {
         'skill' : '15rem',
         'skills' : '70rem',
         'wrapper' : '27rem',
+        'inp' : '35rem',
       },
       skew: {
         '30' : '30deg'
       },
       boxShadow: {
-        'shop': '0px 20px 50px #c03f9b',
-        'multi': '0px 20px 50px #478bd7',
-        'rcs': '0px 20px 50px #0c0b7e',
-        'ipt': '0px 20px 50px #f0a73d',
+        'shop': '0px 10px 30px  #c03f9b',
+        'multi': '0px 10px 30px  #478bd7',
+        'rcs': '0px 10px 30px  #0c0b7e',
+        'ipt': '0px 10px 30px #f0a73d',
+        'hang': '0px 10px 30px #ddd18c',
+        'pok': '0px 10px 30px #eee9c6',
       }
     },
   },

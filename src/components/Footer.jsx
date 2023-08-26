@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import tom from '../source/images/top.png'
 
 const Footer = () => {
   return (

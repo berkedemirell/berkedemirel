@@ -96,6 +96,48 @@ const Projects = () => {
             </div>
           </div>
         </Link>
+        <Link
+          to="https://hangman-gamma-coral.vercel.app/"
+          className="wrapper text-bblack font-bold h-wrapper w-wrapper p-12"
+          target="_blank"
+        >
+          <div
+            className="containers absolute bg-gradient-to-r from-amber-100 to-orange-100 rounded-xl shadow-hang"
+            id="c0"
+          >
+            <div className="content" id="i0">
+              <div className="w-full h-52 bg-hang bg-cover bg-center rounded-xl"></div>
+              <div className="text-center mt-2">
+                <p className="text-xl">Hangman</p>
+                <p className="text-sm font-semibold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corrupti laborum sapiente qui impedit.
+                </p>
+                <p className="text-sm uppercase mt-12">TypeScript, React, Tailwind</p>
+              </div>
+            </div>
+          </div>
+        </Link>
+        <Link
+          to="https://pokemon-game-rho.vercel.app/"
+          className="wrapper text-bblack font-bold h-wrapper w-wrapper p-12"
+          target="_blank"
+        >
+          <div
+            className="containers absolute bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl shadow-pok"
+            id="c0"
+          >
+            <div className="content" id="i0">
+              <div className="w-full h-52 bg-pok bg-cover bg-center rounded-xl"></div>
+              <div className="text-center mt-2">
+                <p className="text-xl">Pokemon Game</p>
+                <p className="text-sm font-semibold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corrupti laborum sapiente qui impedit.
+                </p>
+                <p className="text-sm uppercase mt-12">React, Css</p>
+              </div>
+            </div>
+          </div>
+        </Link>
       </div>
     </div>
   );
