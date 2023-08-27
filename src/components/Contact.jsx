@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <div className="w-full font-texturina h-screen border-b border-slate-700 bg-dark-night bg-cover text-slate-50">
+    <div className="w-full font-texturina h-screen border-b border-slate-700 bg-dark-night bg-cover text-slate-50" id="contact">
         <h1 className="text-center text-4xl pt-6 sms:text-2xl uppercase sms:pt-2">Contact</h1>
       <div className="w-full h-screen flex flex-row items-start justify-center mt-12 sms:mt-8">
         <form

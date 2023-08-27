@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="w-full">
+    <div className="w-full relative">
       <Navbar />
       <Hero />
       <Skills/>

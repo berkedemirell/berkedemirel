@@ -6,7 +6,7 @@ import tailwind from "../source/images/tailwind.png";
 
 const Skills = () => {
   return (
-    <div className="w-fit relative border-b border-slate-700 h-fit pb-24 mmd:pb-12 bg-bblack text-slate-50 flex flex-col items-center justify-start gap-4 font-texturina">
+    <div className="w-fit relative border-b border-slate-700 h-fit pb-24 mmd:pb-12 bg-bblack text-slate-50 flex flex-col items-center justify-start gap-4 font-texturina" id="skills">
       <h1 className="text-4xl mb-12 mt-12 mmd:mb-6 mmd:mt-6 mmd:text-3xl sms:text-2xl uppercase sms:mr-12">Skills</h1>
       <div className="overflow-hidden w-full bg-bblack whitespace-nowrap outer-slides">
         <div className='slides inline-block slide'>

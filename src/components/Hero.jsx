@@ -3,6 +3,11 @@
 import { Link } from "react-router-dom";
 
 const Hero = () => {
+  const skills = document.getElementById("skills");
+  const handleScroll = (e) => {
+    e.preventDefault();
+    skills.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="w-full bg-bblack h-screen font-texturina relative border-b border-slate-700">
       <div className="flex flex-row relative ">
@@ -34,7 +39,7 @@ const Hero = () => {
               ducimus laudantium nostrum et?
             </p>
           </div>
-          <Link className="text-slate-50 ssm:text-sm sms:text-xs mt-44 border flex flex-row items-center justify-center border-slate-50 p-4 hover:bg-slate-50 hover:text-bblack font-bold transition-all duration-500 gap-2">
+          <Link className="text-slate-50 ssm:text-sm sms:text-xs mt-44 border flex flex-row items-center justify-center border-slate-50 p-4 hover:bg-slate-50 hover:text-bblack font-bold transition-all duration-500 gap-2" onClick={handleScroll}>
             Learn More{" "}
             <span className="shake">
               <ion-icon name="arrow-down-outline"></ion-icon>
