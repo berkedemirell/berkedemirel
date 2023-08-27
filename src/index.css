@@ -164,3 +164,9 @@
   }
 }
 
+@media (max-width: 950px) {
+  .containers {
+    transform: rotateX(0deg) scale(0.90);
+  }
+}
+

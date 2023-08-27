@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="w-full h-screen flex flex-row items-start justify-center mt-12">
         <form
           action=""
-          className="p-12 w-1/2 flex flex-col items-start justify-start gap-4 font-texturina ml-12"
+          className="p-12 w-1/2 flex flex-col items-start mmmd:ml-32 justify-start gap-4 font-texturina mmd:mr-36 ml-12 ssm:ml-20 ll:ml-0 ll:p-0"
         >
           <div className="flex flex-col">
             <label htmlFor="" className="uppercase text-xs pb-1">
@@ -16,7 +16,7 @@ const Contact = () => {
             <input
               type="text"
               placeholder="e.g Tom Bombadil"
-              className="p-1 w-inp rounded-md text-bblack"
+              className="p-1 w-inp rounded-md text-bblack mmmd:w-inp2"
             />
           </div>
           <div className="flex flex-col">
@@ -26,7 +26,7 @@ const Contact = () => {
             <input
               type="email"
               placeholder="e.g dberke00@gmail.com"
-              className="p-1 w-inp rounded-md text-bblack"
+              className="p-1 w-inp rounded-md text-bblack mmmd:w-inp2"
             />
           </div>
           <div className="flex flex-col">
@@ -36,9 +36,8 @@ const Contact = () => {
             <textarea
               type="text"
               placeholder="e.g fuck you!"
-              className="p-1 rounded-md text-bblack"
+              className="p-1 rounded-md text-bblack w-inp mmmd:w-inp2"
               rows={6}
-              cols={65}
             />
           </div>
         </form>

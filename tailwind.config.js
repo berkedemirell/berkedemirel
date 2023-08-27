@@ -45,6 +45,7 @@ export default {
         'skills' : '70rem',
         'wrapper' : '27rem',
         'inp' : '35rem',
+        'inp2' : '20rem',
       },
       skew: {
         '30' : '30deg'
@@ -56,6 +57,14 @@ export default {
         'ipt': '0px 10px 30px #f0a73d',
         'hang': '0px 10px 30px #ddd18c',
         'pok': '0px 10px 30px #eee9c6',
+      },
+      screens: {
+        'll' : {'max' : '1100px'},
+        'lg' : {'max' : '950px'},
+        'md' : {'max' : '900px'},
+        'mmd' : {'max' : '800px'},
+        'mmmd' : {'max' : '650px'},
+        'ssm' : {'max' : '500px'},
       }
     },
   },
