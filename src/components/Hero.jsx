@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className=" bg-bblack h-screen font-texturina relative border-b border-slate-700">
-      <div className="flex flex-row relative">
+    <div className="w-full bg-bblack h-screen font-texturina relative border-b border-slate-700">
+      <div className="flex flex-row relative ">
         <div className=" absolute ml-14 container flex flex-col items-start">
           <div className="text-3xl flex flex-row items-start mt-36 justify-start flex font-bold text-slate-200 ssm:text-2xl sms:text-xl">
             <p>Hi, I am</p>

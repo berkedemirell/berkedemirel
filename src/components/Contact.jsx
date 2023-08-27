@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="w-full h-screen flex flex-row items-start justify-center mt-12">
         <form
           action=""
-          className="p-12 w-1/2 flex flex-col items-start mmmd:ml-32 justify-start gap-4 font-texturina mmd:mr-36 ml-12 ssm:ml-20 ll:ml-0 ll:p-0"
+          className="p-12 w-1/2 flex flex-col items-start mmmd:ml-32 justify-start gap-4 font-texturina mmd:mr-36 ml-12 ssm:ml-20 sms:ml-0 ll:ml-0 ll:p-0"
         >
           <div className="flex flex-col">
             <label htmlFor="" className="uppercase text-xs pb-1">

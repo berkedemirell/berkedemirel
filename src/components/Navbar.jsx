@@ -11,7 +11,7 @@ const Navbar = () => {
     setIsDrop((prev) => !prev)
   }
   return (
-    <div className="p-4 bg-night bg-cover border-b border-slate-700 font-texturina mmd:pr-12 mmd:pl-12 mmmd:pl-8 mmmd:pr-8 ssm:pr-2">
+    <div className="p-4 w-full bg-night bg-cover border-b border-slate-700 font-texturina mmd:pr-12 mmd:pl-12 mmmd:pl-8 mmmd:pr-8 ssm:pr-2">
       <div className="flex flex-row items-center justify-between">
         <div>
           <Link to="/">
@@ -53,25 +53,25 @@ const Navbar = () => {
           {isDrop && <div className='absolute text-bblack flex flex-col items-start justify-center gap-2 z-10 -left-36 top-8 bg-slate-50 p-4 rounded-lg'>
             <Link
               to="/"
-              className="hover:text-slate-500 transition-all duration-500"
+              className="hover:text-slate-500 transition-all duration-500 text-lg"
             >
               Main
             </Link>
             <Link
               to="/"
-              className="hover:text-slate-500 transition-all duration-500"
+              className="hover:text-slate-500 transition-all duration-500 text-lg"
             >
               Skills
             </Link>
             <Link
               to="/"
-              className="hover:text-slate-500 transition-all duration-500"
+              className="hover:text-slate-500 transition-all duration-500 text-lg"
             >
               My Projects
             </Link>
             <Link
               to="/"
-              className="hover:text-slate-500 transition-all duration-500"
+              className="hover:text-slate-500 transition-all duration-500 text-lg"
             >
               Contact
             </Link>
