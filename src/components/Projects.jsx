@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className="w-full h-fit bg-bblack font-texturina p-20 border-b border-slate-700">
       <div className="text-slate-50 text-center">
-        <p className="text-4xl sms:text-2xl">My Projects</p>
+        <p className="text-4xl sms:text-2xl uppercase">My Projects</p>
       </div>
       <div className="text-slate-50 grid grid-cols-2 lg:grid-cols-1 ll:gap-4 lg:mt-12 items-center justify-center lg:ml-36 mmd:ml-24 mmmd:ml-16 ssm:ml-0 gap-24">
         <Link

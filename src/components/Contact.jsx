@@ -3,13 +3,13 @@
 const Contact = () => {
   return (
     <div className="w-full font-texturina h-screen border-b border-slate-700 bg-dark-night bg-cover text-slate-50">
-        <h1 className="text-center text-4xl pt-6">Contact</h1>
-      <div className="w-full h-screen flex flex-row items-start justify-center mt-12">
+        <h1 className="text-center text-4xl pt-6 sms:text-2xl uppercase sms:pt-2">Contact</h1>
+      <div className="w-full h-screen flex flex-row items-start justify-center mt-12 sms:mt-8">
         <form
           action=""
-          className="p-12 w-1/2 flex flex-col items-start mmmd:ml-32 justify-start gap-4 font-texturina mmd:mr-36 ml-12 ssm:ml-20 sms:ml-0 ll:ml-0 ll:p-0"
+          className="p-12 w-1/2 flex sms:p-4 flex-col items-start mmmd:ml-32 justify-center gap-4 font-texturina mmd:mr-36 ml-12 ssm:ml-20 sms:ml-0 ll:ml-0 ll:p-0"
         >
-          <div className="flex flex-col">
+          <div className="flex flex-col items-start justify-center">
             <label htmlFor="" className="uppercase text-xs pb-1">
               name surname:
             </label>
