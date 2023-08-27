@@ -1,13 +1,37 @@
 // import logo from "../source/images/TomBombadil.jpg";
 
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
+  const [isSticky, setIsSticky] = useState("")
+
+
   const skills = document.getElementById("skills");
   const handleScroll = (e) => {
     e.preventDefault();
     skills.scrollIntoView({ behavior: "smooth" });
   };
+
+  const sticky = () => {
+    if(window !== undefined) {
+      let windowHeight = window.scrollY;
+      windowHeight > 500 ? setIsSticky('fixed') : setIsSticky('hidden')
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', sticky)
+    return () => {
+      window.removeEventListener('scroll', sticky)
+    }
+  }, [])
+
+  const scrollToTop = (e) => {
+    e.preventDefault();
+    scrollTo({top: 0, behavior:'smooth'})
+  }
+
   return (
     <div className="w-full bg-bblack h-screen font-texturina relative border-b border-slate-700">
       <div className="flex flex-row relative ">
@@ -33,7 +57,7 @@ const Hero = () => {
             </section>
           </div>
           <div className="text-slate-300 lg:text-slate-50 w-header">
-            <p className="text-md font-bold mt-2 ssm:text-sm ssm:text-xs  ssm:w-64">
+            <p className={`text-md font-bold mt-2 ssm:text-sm ssm:text-xs ssm:w-64`}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam exercitationem earum quod possimus corrupti nemo culpa
               ducimus laudantium nostrum et?
@@ -45,6 +69,7 @@ const Hero = () => {
               <ion-icon name="arrow-down-outline"></ion-icon>
             </span>
           </Link>
+          <button className={`text-slate-50 z-20 translate-y-a translate-x-b ${isSticky}`} onClick={scrollToTop}>Back to Top</button>
         </div>
         <div className="w-full">
           <iframe

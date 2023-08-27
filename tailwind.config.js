@@ -66,6 +66,10 @@ export default {
         'mmmd' : {'max' : '650px'},
         'ssm' : {'max' : '500px'},
         'sms' : {'max' : '450px'},
+      },
+      translate: {
+        'a' : '28rem',
+        'b' : '70rem',
       }
     },
   },
