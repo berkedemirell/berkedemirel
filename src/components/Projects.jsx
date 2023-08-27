@@ -4,12 +4,12 @@ const Projects = () => {
   return (
     <div className="w-full h-fit bg-bblack font-texturina p-20 border-b border-slate-700">
       <div className="text-slate-50 text-center">
-        <p className="text-4xl">My Projects</p>
+        <p className="text-4xl sms:text-2xl">My Projects</p>
       </div>
       <div className="text-slate-50 grid grid-cols-2 lg:grid-cols-1 ll:gap-4 lg:mt-12 items-center justify-center lg:ml-36 mmd:ml-24 mmmd:ml-16 ssm:ml-0 gap-24">
         <Link
           to="https://shopping-app-v2.vercel.app/"
-          className="wrapper text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2"
+          className="wrapper text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill"
           target="_blank"
         >
           <div
@@ -33,7 +33,7 @@ const Projects = () => {
         </Link>
         <Link
           to="https://multistep-form-drab.vercel.app/"
-          className="wrapper text-bblack font-bold h-wrapper mmmd:w-inp2 w-wrapper p-12 ll:p-2"
+          className="wrapper text-bblack font-bold h-wrapper mmmd:w-inp2 w-wrapper p-12 ll:p-2 sms:w-skill"
           target="_blank"
         >
           <div
@@ -55,7 +55,7 @@ const Projects = () => {
         </Link>
         <Link
           to="https://rockpaperscissors-game-virid.vercel.app/"
-          className="wrapper text-slate-50 font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2"
+          className="wrapper text-slate-50 font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill"
           target="_blank"
         >
           <div
@@ -77,7 +77,7 @@ const Projects = () => {
         </Link>
         <Link
           to="https://ip-tracker-nine-murex.vercel.app/"
-          className="wrapper text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2"
+          className="wrapper text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill"
           target="_blank"
         >
           <div
@@ -98,7 +98,7 @@ const Projects = () => {
         </Link>
         <Link
           to="https://hangman-gamma-coral.vercel.app/"
-          className="wrapper text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2"
+          className="wrapper text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill"
           target="_blank"
         >
           <div
@@ -119,7 +119,7 @@ const Projects = () => {
         </Link>
         <Link
           to="https://pokemon-game-rho.vercel.app/"
-          className="wrapper text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2"
+          className="wrapper text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill"
           target="_blank"
         >
           <div
