@@ -73,18 +73,24 @@ const Navbar = () => {
             <Link
               to="/"
               className="hover:text-slate-500 transition-all duration-500 text-lg"
+              id="skill"
+              onClick={handleScroll}
             >
               Skills
             </Link>
             <Link
               to="/"
               className="hover:text-slate-500 transition-all duration-500 text-lg"
+              id="project"
+              onClick={handleScroll}
             >
               My Projects
             </Link>
             <Link
               to="/"
               className="hover:text-slate-500 transition-all duration-500 text-lg"
+              id="cont"
+              onClick={handleScroll}
             >
               Contact
             </Link>
