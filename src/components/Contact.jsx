@@ -16,7 +16,7 @@ const Contact = () => {
             <input
               type="text"
               placeholder="e.g Tom Bombadil"
-              className="p-1 w-inp rounded-md text-bblack mmmd:w-inp2"
+              className="p-1 w-inp rounded-md text-bblack mmmd:w-inp2 xxl:w-inp3"
             />
           </div>
           <div className="flex flex-col">
@@ -26,7 +26,7 @@ const Contact = () => {
             <input
               type="email"
               placeholder="e.g dberke00@gmail.com"
-              className="p-1 w-inp rounded-md text-bblack mmmd:w-inp2"
+              className="p-1 w-inp rounded-md text-bblack mmmd:w-inp2 xxl:w-inp3"
             />
           </div>
           <div className="flex flex-col">
@@ -36,7 +36,7 @@ const Contact = () => {
             <textarea
               type="text"
               placeholder="e.g fuck you!"
-              className="p-1 rounded-md text-bblack w-inp mmmd:w-inp2"
+              className="p-1 rounded-md text-bblack w-inp mmmd:w-inp2 xxl:w-inp3"
               rows={6}
             />
           </div>

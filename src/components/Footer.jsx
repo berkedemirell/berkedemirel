@@ -46,6 +46,7 @@ const Footer = () => {
             <p className="text-sm font-bold text-slate-300 text-center">
               All Rights Reserved Berke Demirel &copy; 2023
             </p>
+            <p className="text-center mt-2 text-slate-300 font-bold text-sm">Contact: dberke00@gmail.com</p>
           </div>
         </div>
       </div>

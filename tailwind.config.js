@@ -46,6 +46,7 @@ export default {
         'wrapper' : '27rem',
         'inp' : '35rem',
         'inp2' : '20rem',
+        'inp3' : '45rem',
       },
       skew: {
         '30' : '30deg'
@@ -66,6 +67,7 @@ export default {
         'mmmd' : {'max' : '650px'},
         'ssm' : {'max' : '500px'},
         'sms' : {'max' : '450px'},
+        'xxl' : {'min' : '1500px'},
       },
       translate: {
         'a' : '28rem',

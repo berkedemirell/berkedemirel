@@ -37,11 +37,11 @@ const Navbar = () => {
               src={logo}
               alt=""
               
-              className="w-20 h-20 rounded-full mmmd:w-14 mmmd:h-14 transition-all duration-500 hover:transform hover:scale-105"
+              className="w-20 h-20 xxl:w-24 xxl:ml-4 xxl:h-24 rounded-full mmmd:w-14 mmmd:h-14 transition-all duration-500 hover:transform hover:scale-105"
             />
           </Link>
         </div>
-        <div className="flex flex-row gap-6 text-lg mmmd:text-sm text-slate-50 font-bold mr-8 sms:hidden">
+        <div className="flex flex-row gap-6 text-lg xxl:text-2xl mmmd:text-sm text-slate-50 font-bold mr-8 sms:hidden">
           <Link
             to="/"
             className="hover:text-slate-500 transition-all duration-500"
