@@ -69,7 +69,7 @@ const Hero = () => {
               <ion-icon name="arrow-down-outline"></ion-icon>
             </span>
           </Link>
-          <button className={`text-slate-50 z-20 translate-y-a translate-x-b ${isSticky}`} onClick={scrollToTop}>Back to Top</button>
+          <button className={`text-slate-50 z-20 translate-y-a mmmd:text-xs ssm:-translate-x-gg translate-x-b lg:translate-y-c lg:translate-x-d mmd:translate-x-ee mmmd:translate-x-ff ${isSticky}`} onClick={scrollToTop}>Back to Top</button>
         </div>
         <div className="w-full">
           <iframe

@@ -72,6 +72,11 @@ export default {
       translate: {
         'a' : '28rem',
         'b' : '70rem',
+        'c' : '25rem',
+        'd' : '45rem',
+        'ee' : '35rem',
+        'ff' : '27rem',
+        'gg' : '2rem',
       }
     },
   },
