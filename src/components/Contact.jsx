@@ -1,13 +1,74 @@
 // import img from "../source/images/ben.png";
 
+import { useRef, useState } from "react";
+
 const Contact = () => {
+
+  const [inputs, setInputs] = useState({
+    name: "",
+    email: "",
+    message: "",
+  })
+
+  const nameRef = useRef(null)
+  const emailRef = useRef(null)
+  const messageRef = useRef(null)
+
+
+  const [message, setMessage] = useState({
+    isSuccess: false,
+    message:'',
+  })
+
+  const handleChange = (e) => {
+    setInputs({...inputs, [e.target.name]:e.target.value})
+  }
+
+  const handleMessage = (e) => {
+    e.preventDefault();
+    if(inputs.name.length !== 0 && inputs.email.length !== 0 && inputs.message.length !== 0) {
+      setMessage({
+        isSuccess:true,
+        message: 'Successfull! I am not going to receive that message tho, but thanks for your effort. <3'
+      })
+      setTimeout(() => {
+        setMessage('')
+      },6000)
+      nameRef.current.value = ''
+      emailRef.current.value = ''
+      messageRef.current.value = ''
+      setInputs({
+        name:'',
+        email:'',
+        message:''
+      })
+
+    } else {
+      setMessage({
+        isSuccess: false,
+        message: 'Fill all empty inputs please!'
+      })
+      setTimeout(() => {
+        setMessage('')
+      },3000)
+  
+    }
+
+  }
+
   return (
-    <div className="w-full font-texturina h-screen border-b border-slate-700 bg-dark-night bg-cover text-slate-50" id="contact">
-        <h1 className="text-center text-4xl pt-6 sms:text-2xl uppercase sms:pt-2">Contact</h1>
+    <div
+      className="w-full font-texturina h-screen border-b border-slate-700 bg-dark-night bg-cover text-slate-50 relative"
+      id="contact"
+    >
+      <h1 className="text-center text-4xl pt-6 sms:text-2xl uppercase sms:pt-2">
+        Contact
+      </h1>
+      {message?.message?.length > 1 && <div className={`w-skill absolute left-0 top-12 ml-10 text-slate-50 p-4 rounded-lg font-bold font-lg tracking-wide ${message.isSuccess ? 'bg-lime-900' : 'bg-red-900'}`}><p>{message.message}</p></div>}
       <div className="w-full h-screen flex flex-row items-start justify-center mt-12 sms:mt-8">
         <form
           action=""
-          className="p-12 w-1/2 flex sms:p-4 flex-col items-start mmmd:ml-32 justify-center gap-4 font-texturina mmd:mr-36 ml-12 ssm:ml-20 sms:ml-0 ll:ml-0 ll:p-0"
+          className="pl-12 pr-12 w-1/2 flex sms:p-4 flex-col items-start mmmd:ml-32 justify-center gap-4 font-texturina mmd:mr-36 ml-12 ssm:ml-20 sms:ml-0 ll:ml-0 ll:p-0"
         >
           <div className="flex flex-col items-start justify-center">
             <label htmlFor="" className="uppercase text-xs pb-1">
@@ -15,8 +76,12 @@ const Contact = () => {
             </label>
             <input
               type="text"
+              id="name"
               placeholder="e.g Tom Bombadil"
-              className="p-1 w-inp rounded-md text-bblack mmmd:w-inp2 xxl:w-inp3"
+              ref={nameRef}
+              name="name"
+              onChange={handleChange}
+              className="p-2 w-inp rounded-md text-bblack mmmd:w-inp2 xxl:w-inp3"
             />
           </div>
           <div className="flex flex-col">
@@ -25,8 +90,12 @@ const Contact = () => {
             </label>
             <input
               type="email"
+              id="email"
+              ref={emailRef}
+              name="email"
+              onChange={handleChange}
               placeholder="e.g dberke00@gmail.com"
-              className="p-1 w-inp rounded-md text-bblack mmmd:w-inp2 xxl:w-inp3"
+              className="p-2 w-inp rounded-md text-bblack mmmd:w-inp2 xxl:w-inp3"
             />
           </div>
           <div className="flex flex-col">
@@ -35,10 +104,19 @@ const Contact = () => {
             </label>
             <textarea
               type="text"
+              id="message"
+              ref={messageRef}
+              name="message"
+              onChange={handleChange}
               placeholder="e.g Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati dolores quod fugiat voluptatum sint."
-              className="p-1 rounded-md text-bblack w-inp mmmd:w-inp2 xxl:w-inp3"
+              className="p-2 rounded-md text-bblack w-inp mmmd:w-inp2 xxl:w-inp3"
               rows={6}
             />
+          </div>
+          <div className="ml-auto mr-auto flex items-center justify-center">
+            <button onClick={handleMessage} className="bg-slate-50 text-bblack pr-10 pl-10 pt-1 pb-1 hover:bg-slate-400 transition-all duration-500 active:bg-slate-50 uppercase font-bold">
+              Send
+            </button>
           </div>
         </form>
         {/* <div className="w-1/2 flex items-center justify-center">
