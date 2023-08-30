@@ -35,7 +35,7 @@ const Contact = () => {
             </label>
             <textarea
               type="text"
-              placeholder="e.g fuck you!"
+              placeholder="e.g Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati dolores quod fugiat voluptatum sint."
               className="p-1 rounded-md text-bblack w-inp mmmd:w-inp2 xxl:w-inp3"
               rows={6}
             />
