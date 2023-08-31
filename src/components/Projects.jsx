@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="w-full h-fit bg-bblack font-texturina p-20 border-b border-slate-700" id="projects">
+    <div className="w-full h-fit mmmd:p-12 mmmd:pt-10 bg-bblack font-texturina p-20 border-b border-slate-700" id="projects">
       <div className="text-slate-50 text-center">
         <p className="text-4xl sms:text-2xl uppercase">My Projects</p>
       </div>

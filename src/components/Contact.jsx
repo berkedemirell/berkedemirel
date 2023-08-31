@@ -64,7 +64,7 @@ const Contact = () => {
       <h1 className="text-center text-4xl pt-6 sms:text-2xl uppercase sms:pt-2">
         Contact
       </h1>
-      {message?.message?.length > 1 && <div className={`w-skill absolute left-0 top-12 ml-10 text-slate-50 p-4 rounded-lg font-bold font-lg tracking-wide ${message.isSuccess ? 'bg-lime-900' : 'bg-red-900'}`}><p>{message.message}</p></div>}
+      {message?.message?.length > 1 && <div className={`w-skill mmmd:w-mes-div mes absolute left-0 top-12 ml-10 text-slate-50 ll:p-2 ll:ml-4 lg:top-4 p-4 rounded-lg mmmd:text-xs font-bold tracking-wide ${message.isSuccess ? 'bg-lime-900' : 'bg-red-900'}`}><p>{message.message}</p></div>}
       <div className="w-full h-screen flex flex-row items-start justify-center mt-12 sms:mt-8">
         <form
           action=""
@@ -77,7 +77,7 @@ const Contact = () => {
             <input
               type="text"
               id="name"
-              placeholder="e.g Tom Bombadil"
+              placeholder="Name and Surname"
               ref={nameRef}
               name="name"
               onChange={handleChange}
@@ -94,7 +94,7 @@ const Contact = () => {
               ref={emailRef}
               name="email"
               onChange={handleChange}
-              placeholder="e.g dberke00@gmail.com"
+              placeholder="Email"
               className="p-2 w-inp rounded-md text-bblack mmmd:w-inp2 xxl:w-inp3"
             />
           </div>
@@ -108,16 +108,14 @@ const Contact = () => {
               ref={messageRef}
               name="message"
               onChange={handleChange}
-              placeholder="e.g Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati dolores quod fugiat voluptatum sint."
+              placeholder="Message"
               className="p-2 rounded-md text-bblack w-inp mmmd:w-inp2 xxl:w-inp3"
               rows={6}
             />
           </div>
-          <div className="ml-auto mr-auto flex items-center justify-center">
-            <button onClick={handleMessage} className="bg-slate-50 text-bblack pr-10 pl-10 pt-1 pb-1 hover:bg-slate-400 transition-all duration-500 active:bg-slate-50 uppercase font-bold">
+            <button onClick={handleMessage} className="bg-slate-50 text-bblack ml-auto mr-auto pr-10 pl-10 pt-1 pb-1 hover:bg-slate-400 transition-all duration-500 active:bg-slate-50 uppercase font-bold">
               Send
             </button>
-          </div>
         </form>
         {/* <div className="w-1/2 flex items-center justify-center">
           <img src={img} alt="" className="h-wrapper rounded-full opacity-50"/>

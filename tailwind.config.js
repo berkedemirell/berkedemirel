@@ -47,6 +47,7 @@ export default {
         'inp' : '35rem',
         'inp2' : '20rem',
         'inp3' : '45rem',
+        'mes-div' : '10rem',
       },
       skew: {
         '30' : '30deg'
@@ -68,6 +69,7 @@ export default {
         'ssm' : {'max' : '500px'},
         'sms' : {'max' : '450px'},
         'xxl' : {'min' : '1500px'},
+        'ss' : {'max' : '400px'},
       },
       translate: {
         'a' : '28rem',

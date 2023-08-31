@@ -36,9 +36,9 @@ const Hero = () => {
     <div className="w-full bg-bblack h-screen font-texturina relative border-b border-slate-700">
       <div className="flex flex-row relative ">
         <div className=" absolute ml-14 container flex flex-col items-start">
-          <div className="text-3xl flex xxl:text-4xl flex-row items-start mt-36 justify-start flex font-bold text-slate-200 ssm:text-xl sms:text-xl">
-            <p>Hi, I am</p>
-            <section className="animation h-10 ml-2 overflow-hidden">
+          <div className="text-3xl ss:flex ss:flex-col ss:items-start ss:justify-start flex xxl:text-4xl flex-row items-start mt-36 justify-start flex font-bold text-slate-200 ssm:text-xl sms:text-xl">
+            <p className="ss:text-xl">Hi, I am</p>
+            <section className="animation h-10 ml-2 overflow-hidden ss:-translate-x-4">
               <div className="">
                 <div className=" inline-block h-12 bg-bblack text-slate-50 pl-2 pr-2">
                   Berke Demirel
@@ -63,7 +63,7 @@ const Hero = () => {
               ducimus laudantium nostrum et?
             </p>
           </div>
-          <Link className="text-slate-50 ssm:text-sm sms:text-xs mt-44 border flex flex-row items-center justify-center border-slate-50 p-4 hover:bg-slate-50 hover:text-bblack font-bold transition-all duration-500 gap-2" onClick={handleScroll}>
+          <Link className="text-slate-50 ssm:text-sm sms:text-xs mt-44 ss:mt-10 border flex flex-row items-center justify-center border-slate-50 p-4 hover:bg-slate-50 hover:text-bblack font-bold transition-all duration-500 gap-2" onClick={handleScroll}>
             Learn More{" "}
             <span className="shake">
               <ion-icon name="arrow-down-outline"></ion-icon>
