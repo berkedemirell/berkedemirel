@@ -68,7 +68,7 @@ const Contact = () => {
       <div className="w-full h-screen flex flex-row items-start justify-center mt-12 sms:mt-8">
         <form
           action=""
-          className="pl-12 pr-12 w-1/2 flex sms:p-4 flex-col items-center mmmd:ml-32 justify-center gap-4 font-texturina mmd:mr-36 ml-12 ssm:ml-20 sms:ml-0 ll:ml-0 ll:p-0"
+          className="pl-12 pr-12 w-1/2 flex sms:p-4 flex-col items-center mmd:items-start mmmd:ml-32 justify-center gap-4 font-texturina mmd:mr-36 ml-12 ssm:ml-20 sms:ml-0 ll:ml-0 ll:p-0"
         >
           <div className="flex flex-col items-start justify-center">
             <label htmlFor="" className="uppercase gia:text-lg text-xs pb-1">
