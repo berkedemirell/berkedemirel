@@ -69,6 +69,7 @@ export default {
         'ssm' : {'max' : '500px'},
         'sms' : {'max' : '450px'},
         'xxl' : {'min' : '1500px'},
+        'gia' : {'min' : '1700px'},
         'ss' : {'max' : '400px'},
       },
       translate: {
