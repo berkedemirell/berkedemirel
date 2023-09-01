@@ -58,7 +58,7 @@ const Contact = () => {
 
   return (
     <div
-      className="w-full font-texturina h-screen border-b border-slate-700 bg-dark-night bg-cover text-slate-50 relative"
+      className="w-full font-texturina h-fit border-b border-slate-700 bg-dark-night bg-cover text-slate-50 relative"
       id="contact"
     >
       <h1 className="text-center gia:text-6xl text-4xl pt-6 sms:text-2xl uppercase sms:pt-2">
@@ -81,7 +81,7 @@ const Contact = () => {
               ref={nameRef}
               name="name"
               onChange={handleChange}
-              className="p-2 w-inp gia:h-12 gia:text-2xl rounded-md text-bblack mmmd:w-inp2 xxl:w-inp3"
+              className="p-2 w-inp gia:h-12 gia:text-2xl rounded-md text-bblack mmmd:w-inp2 xxl:w-inp3 ss:w-skill"
             />
           </div>
           <div className="flex flex-col">
@@ -95,7 +95,7 @@ const Contact = () => {
               name="email"
               onChange={handleChange}
               placeholder="Email"
-              className="p-2 w-inp rounded-md text-bblack gia:h-12 gia:text-2xl mmmd:w-inp2 xxl:w-inp3"
+              className="p-2 w-inp rounded-md text-bblack gia:h-12 gia:text-2xl mmmd:w-inp2 xxl:w-inp3 ss:w-skill"
             />
           </div>
           <div className="flex flex-col">
@@ -109,11 +109,11 @@ const Contact = () => {
               name="message"
               onChange={handleChange}
               placeholder="Message"
-              className="p-2 rounded-md text-bblack w-inp mmmd:w-inp2 xxl:w-inp3 gia:text-2xl"
+              className="p-2 rounded-md text-bblack w-inp mmmd:w-inp2 xxl:w-inp3 gia:text-2xl ss:w-skill"
               rows={6}
             />
           </div>
-            <button onClick={handleMessage} className="bg-slate-50 text-bblack pr-10 pl-10 pt-1 pb-1 hover:bg-slate-400 transition-all duration-500 active:bg-slate-50 uppercase font-bold">
+            <button onClick={handleMessage} className="bg-slate-50 ssm:text-sm text-bblack pr-10 pl-10 pt-1 pb-1 hover:bg-slate-400 transition-all duration-500 active:bg-slate-50 uppercase font-bold">
               Send
             </button>
         </form>

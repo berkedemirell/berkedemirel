@@ -70,7 +70,7 @@ const Hero = () => {
               ducimus laudantium nostrum et?
             </p>
           </div>
-          <Link className="text-slate-50 gia:text-xl ssm:text-sm sms:text-xs mt-44 ss:mt-10 border flex flex-row items-center justify-center border-slate-50 p-4 hover:bg-slate-50 hover:text-bblack font-bold transition-all duration-500 gap-2" onClick={handleScroll}>
+          <Link className="text-slate-50 gia:text-xl ssm:text-sm sms:text-xs mt-44 ss:mt-10 sms:mt-14 border flex flex-row items-center justify-center border-slate-50 p-4 hover:bg-slate-50 hover:text-bblack font-bold transition-all duration-500 gap-2" onClick={handleScroll}>
             Learn More{" "}
             <span className="shake">
               <ion-icon name="arrow-down-outline"></ion-icon>
