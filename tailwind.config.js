@@ -71,6 +71,7 @@ export default {
         'xxl' : {'min' : '1500px'},
         'gia' : {'min' : '1700px'},
         'ss' : {'max' : '400px'},
+        'sss' : {'max' : '350px'},
       },
       translate: {
         'a' : '28rem',
