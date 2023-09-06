@@ -2,7 +2,7 @@ import js from "../source/images/js.png";
 import css from "../source/images/css.webp";
 import html from "../source/images/html.webp";
 import react from "../source/images/react.webp";
-import tailwind from "../source/images/tailwind.png";
+import tailwind from "../source/images/tailwind.webp";
 
 const Skills = () => {
   return (

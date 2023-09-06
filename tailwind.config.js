@@ -13,11 +13,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'night' : "url('./source/images/sky.png')",
+        'night' : "url('./source/images/sky.webp')",
         'dark-night' : "url('./source/images/dark-sky.webp')",
         'shopping' : "url('./source/images/shopping.webp')",
         'multi' : "url('./source/images/multi-step.webp')",
-        'rps' : "url('./source/images/rps.png')",
+        'rps' : "url('./source/images/rps.webp')",
         'ipt' : "url('./source/images/ipt_1.webp')",
         'hang' : "url('./source/images/hangman_1.webp')",
         'pok' : "url('./source/images/pokemon.webp')",

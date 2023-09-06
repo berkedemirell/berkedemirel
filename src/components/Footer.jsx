@@ -7,37 +7,52 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           <ul className="list-none flex flex-row items-center gap-4 text-3xl gia:text-5xl font-bold mmmd:flex-col mmmd:gap-2">
             <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link to='https://github.com/berkedemirell' target="_blank" className="hover:text-red-800">
+              <Link
+                to="https://github.com/berkedemirell"
+                target="_blank"
+                aria-label="github icon"
+                className="hover:text-red-800"
+              >
                 <ion-icon name="logo-github"></ion-icon>
               </Link>
             </li>
             <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link to='https://www.linkedin.com/in/berke-demirel/' target="_blank" className="hover:text-red-800">
+              <Link
+                to="https://www.linkedin.com/in/berke-demirel/"
+                aria-label="linkedin icon"
+                target="_blank"
+                className="hover:text-red-800"
+              >
                 <ion-icon name="logo-linkedin"></ion-icon>
               </Link>
             </li>
             <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link to='https://twitter.com/brkdmrl07' target="_blank" className="hover:text-red-800">
+              <Link
+                to="https://twitter.com/brkdmrl07"
+                aria-label="twitter icon"
+                target="_blank"
+                className="hover:text-red-800"
+              >
                 <ion-icon name="logo-twitter"></ion-icon>
               </Link>
             </li>
             <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link className="hover:text-red-800">
+              <Link className="hover:text-red-800" aria-label="youtube icon">
                 <ion-icon name="logo-youtube"></ion-icon>
               </Link>
             </li>
             <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link className="hover:text-red-800">
+              <Link className="hover:text-red-800" aria-label="npm icon">
                 <ion-icon name="logo-npm"></ion-icon>
               </Link>
             </li>
             <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link className="hover:text-red-800">
+              <Link className="hover:text-red-800" aria-label="react icon">
                 <ion-icon name="logo-react"></ion-icon>
               </Link>
             </li>
             <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link className="hover:text-red-800">
+              <Link className="hover:text-red-800" aria-label="js icon">
                 <ion-icon name="logo-javascript"></ion-icon>
               </Link>
             </li>
@@ -46,7 +61,9 @@ const Footer = () => {
             <p className="text-sm font-bold text-slate-300 text-center gia:text-xl">
               All Rights Reserved Berke Demirel &copy; 2023
             </p>
-            <p className="text-center mt-2 text-slate-300 font-bold text-sm gia:text-xl">Contact: dberke00@gmail.com</p>
+            <p className="text-center mt-2 text-slate-300 font-bold text-sm gia:text-xl">
+              Contact: dberke00@gmail.com
+            </p>
           </div>
         </div>
       </div>

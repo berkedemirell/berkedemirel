@@ -117,9 +117,6 @@ const Contact = () => {
               Send
             </button>
         </form>
-        {/* <div className="w-1/2 flex items-center justify-center">
-          <img src={img} alt="" className="h-wrapper rounded-full opacity-50"/>
-        </div> */}
       </div>
     </div>
   );

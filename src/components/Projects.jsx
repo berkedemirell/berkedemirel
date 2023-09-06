@@ -11,6 +11,7 @@ const Projects = () => {
           to="https://shopping-app-v2.vercel.app/"
           className="wrapper gia:w-inp text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill xxl:w-inp"
           target="_blank"
+          aria-label="shopping app card"
         >
           <div
             className="containers absolute bg-gradient-to-r from-fuchsia-300 to-fuchsia-500 rounded-xl shadow-shop"
@@ -35,6 +36,7 @@ const Projects = () => {
           to="https://multistep-form-drab.vercel.app/"
           className="wrapper gia:w-inp text-bblack font-bold h-wrapper mmmd:w-inp2 w-wrapper p-12 ll:p-2 sms:w-skill xxl:w-inp"
           target="_blank"
+          aria-label="multi step form card"
         >
           <div
             className="containers absolute bg-gradient-to-r from-sky-100 to-sky-200 rounded-xl shadow-multi"
@@ -57,6 +59,7 @@ const Projects = () => {
           to="https://rockpaperscissors-game-virid.vercel.app/"
           className="wrapper gia:w-inp text-slate-50 font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill xxl:w-inp"
           target="_blank"
+          aria-label="rock game card"
         >
           <div
             className="containers absolute bg-gradient-to-r from-blue-900 to-blue-950 rounded-xl shadow-rcs"
@@ -79,6 +82,7 @@ const Projects = () => {
           to="https://ip-tracker-nine-murex.vercel.app/"
           className="wrapper gia:w-inp text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill xxl:w-inp"
           target="_blank"
+          aria-label="ip tracker card"
         >
           <div
             className="containers absolute bg-gradient-to-r from-orange-200 to-orange-300 rounded-xl shadow-ipt"
@@ -100,6 +104,7 @@ const Projects = () => {
           to="https://hangman-gamma-coral.vercel.app/"
           className="wrapper gia:w-inp text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill xxl:w-inp"
           target="_blank"
+          aria-label="hangman game card"
         >
           <div
             className="containers absolute bg-gradient-to-r from-amber-100 to-orange-100 rounded-xl shadow-hang"
@@ -121,6 +126,7 @@ const Projects = () => {
           to="https://pokemon-game-rho.vercel.app/"
           className="wrapper gia:w-inp text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill xxl:w-inp"
           target="_blank"
+          aria-label="pokemon game card"
         >
           <div
             className="containers absolute bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl shadow-pok"
