@@ -1,7 +1,7 @@
 import js from "../source/images/js.png";
-import css from "../source/images/css.png";
-import html from "../source/images/html.png";
-import react from "../source/images/react.png";
+import css from "../source/images/css.webp";
+import html from "../source/images/html.webp";
+import react from "../source/images/react.webp";
 import tailwind from "../source/images/tailwind.png";
 
 const Skills = () => {

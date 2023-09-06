@@ -14,13 +14,13 @@ export default {
     extend: {
       backgroundImage: {
         'night' : "url('./source/images/sky.png')",
-        'dark-night' : "url('./source/images/dark-sky.png')",
-        'shopping' : "url('./source/images/shopping.png')",
-        'multi' : "url('./source/images/multi-step.png')",
+        'dark-night' : "url('./source/images/dark-sky.webp')",
+        'shopping' : "url('./source/images/shopping.webp')",
+        'multi' : "url('./source/images/multi-step.webp')",
         'rps' : "url('./source/images/rps.png')",
-        'ipt' : "url('./source/images/ipt.png')",
-        'hang' : "url('./source/images/hangman.png')",
-        'pok' : "url('./source/images/pokemon.png')",
+        'ipt' : "url('./source/images/ipt_1.webp')",
+        'hang' : "url('./source/images/hangman_1.webp')",
+        'pok' : "url('./source/images/pokemon.webp')",
       },
       fontFamily : {
         'texturina' : ['Texturina']

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import logo from "../source/images/TomBombadil.jpg";
+import logo from "../source/images/TomBombadil.webp";
 
 import { useState } from "react";
 //bg-gradient-to-r from-nav1 to-nav2
