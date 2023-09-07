@@ -69,6 +69,7 @@ export default {
         'mmmd' : {'max' : '650px'},
         'ssm' : {'max' : '500px'},
         'sms' : {'max' : '450px'},
+        'smss' : {'max' : '550px'},
         'xxl' : {'min' : '1500px'},
         'gia' : {'min' : '1700px'},
         'ss' : {'max' : '400px'},

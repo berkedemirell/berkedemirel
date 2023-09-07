@@ -2,41 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 .animation div:first-child {
   animation: text-animation 8s infinite;
 }
 
-.animation2 div:first-child{
+.animation2 div:first-child {
   animation: text-animation2 8s infinite;
 }
 
-
 @keyframes text-animation {
-  0% {margin-top: 0;}
-  10% {margin-top: 0;}
-  20% {margin-top: -3rem;}
-  30% {margin-top: -3rem;}
-  40% {margin-top: -6rem;}
-  60% {margin-top: -6rem;}
-  70% {margin-top: 0rem;}
-  80% {margin-top: 0rem;}
-  90% {margin-top: 0;}
-  100% {margin-top: 0;}
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -3rem;
+  }
+  30% {
+    margin-top: -3rem;
+  }
+  40% {
+    margin-top: -6rem;
+  }
+  60% {
+    margin-top: -6rem;
+  }
+  70% {
+    margin-top: 0rem;
+  }
+  80% {
+    margin-top: 0rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
 @keyframes text-animation2 {
-  0% {margin-top: 0;}
-  10% {margin-top: 0;}
-  20% {margin-top: -4rem;}
-  30% {margin-top: -4rem;}
-  40% {margin-top: -8rem;}
-  60% {margin-top: -8rem;}
-  70% {margin-top: 0rem;}
-  80% {margin-top: 0rem;}
-  90% {margin-top: 0;}
-  100% {margin-top: 0;}
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -4rem;
+  }
+  30% {
+    margin-top: -4rem;
+  }
+  40% {
+    margin-top: -8rem;
+  }
+  60% {
+    margin-top: -8rem;
+  }
+  70% {
+    margin-top: 0rem;
+  }
+  80% {
+    margin-top: 0rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
 
 .container {
@@ -53,7 +89,7 @@
 }
 
 .mes {
-  animation: fadeIn3 1s ease-in
+  animation: fadeIn3 1s ease-in;
 }
 
 .shake {
@@ -63,14 +99,13 @@
 
 @keyframes fadeIn3 {
   from {
-    opacity:0;
+    opacity: 0;
     transform: translateX(-100px);
   }
   to {
     opacity: 1;
   }
 }
-
 
 @keyframes fadeIn {
   from {
@@ -86,7 +121,6 @@
   from {
     opacity: 0;
     transform: translateY(-200px);
-
   }
   to {
     opacity: 1;
@@ -120,7 +154,6 @@
   }
 }
 
-
 .slide {
   animation: slide 10s infinite linear;
 }
@@ -129,30 +162,35 @@
   animation-play-state: paused;
 }
 
-.outer-slides:before, .outer-slides:after {
+.outer-slides:before,
+.outer-slides:after {
   position: absolute;
   top: 0;
   width: 250px;
   height: 100%;
-  content: '';
+  content: "";
   z-index: 2;
 }
 
 .outer-slides:before {
-  left:0;
-  background: linear-gradient(to left, rgba(155, 13, 13, 0), rgba(0, 0, 0, 0.9));
+  left: 0;
+  background: linear-gradient(
+    to left,
+    rgba(155, 13, 13, 0),
+    rgba(0, 0, 0, 0.9)
+  );
 }
 
 .outer-slides:after {
-  right:0;
-  background: linear-gradient(to right, rgb(131, 1, 1,0), rgba(5, 4, 4, 0.9));
+  right: 0;
+  background: linear-gradient(to right, rgb(131, 1, 1, 0), rgba(5, 4, 4, 0.9));
 }
 
 .wrapper {
   perspective: 600px;
 }
 .containers {
-  transition: .5s all ease;
+  transition: 0.5s all ease;
   width: 100%;
   height: 100%;
   transform: rotateX(35deg) scale(0.8);
@@ -165,7 +203,7 @@
 .containers:hover {
   cursor: pointer;
   transform: rotate(0deg) scale(1.1) translateY(10px);
-  transition: .5s all ease;
+  transition: 0.5s all ease;
   z-index: 400;
 }
 
@@ -181,7 +219,6 @@
 
 @media (max-width: 950px) {
   .containers {
-    transform: rotateX(0deg) scale(0.90);
+    transform: rotateX(0deg) scale(0.9);
   }
 }
-

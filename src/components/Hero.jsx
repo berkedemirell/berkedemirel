@@ -1,33 +1,23 @@
-// import logo from "../source/images/TomBombadil.jpg";
 
-import { useEffect, useState, lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowDown } from "react-icons/fa";
-const Frame = lazy(() => import("../source/3d/Frame.jsx"));
 
 const Hero = () => {
-  const [isGia, setIsGia] = useState("");
 
-  const skills = document.getElementById("skills");
   const handleScroll = (e) => {
     e.preventDefault();
+    const skills = document.getElementById("skills");
     skills.scrollIntoView({ behavior: "smooth" });
   };
 
-  useEffect(() => {
-    if (window !== undefined) {
-      window.innerWidth > 1700 ? setIsGia("animation2") : setIsGia("animation");
-    }
-  }, []);
-
   return (
-    <div className="w-full bg-bblack h-screen font-texturina relative border-b border-slate-700">
+    <div className="w-full bg-bblack h-screen font-texturina relative border-b border-slate-700 gia:pl-14 gia:pr-14">
       <div className="flex flex-row relative ">
         <div className=" absolute ml-14 flex flex-col items-start">
-          <div className="text-3xl gia:text-5xl ss:flex ss:flex-col ss:items-start ss:justify-start flex xxl:text-4xl flex-row items-start mt-36 justify-start flex font-bold text-slate-200 ssm:text-xl sms:text-xl">
+          <div className="text-3xl gia:text-5xl ss:flex ss:flex-col smss:flex-col smss:items-start ss:items-start ss:justify-start flex xxl:text-4xl flex-row items-start mt-36 justify-start flex font-bold text-slate-200 ssm:text-xl sms:text-xl">
             <p className="ss:text-xl">Hi, I am</p>
             <section
-              className={`${isGia} h-10 gia:h-16 ml-2 overflow-hidden ss:-translate-x-4`}
+              className={`${window.innerWidth > 1700 ? 'animation2' : 'animation'} h-10 gia:h-16 ml-2 overflow-hidden smss:-translate-x-4`}
             >
               <div className="">
                 <div className=" inline-block h-12 gia:h-16 bg-bblack text-slate-50 pl-2 pr-2">
@@ -66,9 +56,13 @@ const Hero = () => {
             </span>
           </Link>
         </div>
-        <Suspense fallback={<div className="text-slate-50">Loading</div>}>
-          <Frame />
-        </Suspense>
+        <div className="w-full">
+          <iframe
+            defer src="https://my.spline.design/untitled-b8fce33306b5bd25d6eca9d559c4ba99/"
+            className="w-full h-sphere"
+            title="Totoro"
+          ></iframe>
+    </div>
       </div>
     </div>
   );

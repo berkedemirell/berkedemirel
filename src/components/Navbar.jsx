@@ -25,7 +25,7 @@ const Navbar = () => {
     }
   };
   return (
-    <div className="p-4 w-full bg-bblack bg-cover border-b border-slate-700 font-texturina mmd:pr-12 mmd:pl-12 mmmd:pl-8 mmmd:pr-8 ssm:pr-2">
+    <div className="p-4 gia:pl-20 gia:pr-20 w-full bg-bblack bg-cover border-b border-slate-700 font-texturina mmd:pr-12 mmd:pl-12 mmmd:pl-8 mmmd:pr-8 ssm:pr-2">
       <div className="flex flex-row items-center justify-between">
         <div>
           <Link to="/">

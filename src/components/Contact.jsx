@@ -1,6 +1,6 @@
 // import img from "../source/images/ben.png";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Contact = () => {
 
@@ -9,6 +9,27 @@ const Contact = () => {
     email: "",
     message: "",
   })
+  const targetElement = useRef(null);
+  const [isInView, setIsInView] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(onIntersection, {
+      root: null,
+      threshold: 0,
+      rootMargin: "-100px",
+    });
+    const observerRefValue = targetElement.current;
+    observer.observe(observerRefValue);
+
+    return () => observer.unobserve(observerRefValue);
+  }, []);
+
+  const onIntersection = (entry) => {
+    if (!entry[0].isIntersecting) {
+      return;
+    }
+    setIsInView(true);
+  };
 
   const nameRef = useRef(null)
   const emailRef = useRef(null)
@@ -59,13 +80,14 @@ const Contact = () => {
   return (
     <div
       className="w-full font-texturina pb-6 h-fit border-b border-slate-700 bg-dark-night bg-cover text-slate-50 relative"
+      ref={targetElement}
       id="contact"
     >
       <h1 className="text-center gia:text-6xl text-4xl pt-6 sms:text-2xl uppercase sms:pt-2">
         Contact
       </h1>
       {message?.message?.length > 1 && <div className={`w-skill mmmd:w-mes-div mes absolute left-0 top-12 ml-10 text-slate-50 ll:p-2 ll:ml-4 lg:top-4 p-4 rounded-lg mmmd:text-xs font-bold tracking-wide ${message.isSuccess ? 'bg-lime-900' : 'bg-red-900'}`}><p>{message.message}</p></div>}
-      <div className="w-full h-fit flex flex-row items-start justify-center mt-12 sms:mt-8">
+      <div className={`w-full h-fit ${isInView ? 'flex' : 'hidden'} flex-row items-start justify-center mt-12 sms:mt-8`}>
         <form
           action=""
           className="pl-12 pr-12 w-1/2 flex sms:p-4 flex-col items-center mmd:items-start mmmd:ml-32 justify-center gap-4 font-texturina mmd:mr-36 ml-12 ssm:ml-20 sms:ml-0 ll:ml-0 ll:p-0"
