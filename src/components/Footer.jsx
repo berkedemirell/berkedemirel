@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import {FaTwitter,FaGithub, FaLinkedin, FaYoutube, FaNpm, FaReact, FaJs} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
                 aria-label="github icon"
                 className="hover:text-red-800"
               >
-                <ion-icon name="logo-github"></ion-icon>
+                <FaGithub/>
               </Link>
             </li>
             <li className="hover:transform hover:scale-150 transition-all duration-500">
@@ -23,37 +24,32 @@ const Footer = () => {
                 target="_blank"
                 className="hover:text-red-800"
               >
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </Link>
-            </li>
-            <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link
-                to="https://twitter.com/brkdmrl07"
-                aria-label="twitter icon"
-                target="_blank"
-                className="hover:text-red-800"
-              >
-                <ion-icon name="logo-twitter"></ion-icon>
-              </Link>
-            </li>
-            <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link className="hover:text-red-800" aria-label="youtube icon">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </Link>
-            </li>
-            <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link className="hover:text-red-800" aria-label="npm icon">
-                <ion-icon name="logo-npm"></ion-icon>
-              </Link>
-            </li>
-            <li className="hover:transform hover:scale-150 transition-all duration-500">
-              <Link className="hover:text-red-800" aria-label="react icon">
-                <ion-icon name="logo-react"></ion-icon>
+                <FaLinkedin/>
               </Link>
             </li>
             <li className="hover:transform hover:scale-150 transition-all duration-500">
               <Link className="hover:text-red-800" aria-label="js icon">
-                <ion-icon name="logo-javascript"></ion-icon>
+                <FaTwitter/>
+              </Link>
+            </li>
+            <li className="hover:transform hover:scale-150 transition-all duration-500">
+              <Link className="hover:text-red-800" aria-label="youtube icon">
+                <FaYoutube/>
+              </Link>
+            </li>
+            <li className="hover:transform hover:scale-150 transition-all duration-500">
+              <Link className="hover:text-red-800" aria-label="npm icon">
+                <FaNpm/>
+              </Link>
+            </li>
+            <li className="hover:transform hover:scale-150 transition-all duration-500">
+              <Link className="hover:text-red-800" aria-label="react icon">
+                <FaReact/>
+              </Link>
+            </li>
+            <li className="hover:transform hover:scale-150 transition-all duration-500">
+              <Link className="hover:text-red-800" aria-label="js icon">
+                <FaJs/>
               </Link>
             </li>
           </ul>

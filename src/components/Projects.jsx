@@ -6,7 +6,7 @@ const Projects = () => {
       <div className="text-slate-50 text-center">
         <p className="text-4xl sms:text-2xl uppercase gia:text-6xl">My Projects</p>
       </div>
-      <div className="text-slate-50 w-full sms:pl-8 ss:pl-4 sss:pl-0 grid grid-cols-2 gia:gap-x-52 gia:pb-36 lg:grid-cols-1 ll:gap-4 lg:mt-12 items-center justify-center lg:ml-36 mmd:ml-24 mmmd:ml-16 ssm:ml-0 gap-24">
+      <div className="text-slate-50 w-full sms:pl-8 ss:pl-4 sss:pl-0 grid grid-cols-2 gia:gap-x-52 gia:pb-36 gia:pl-32 lg:grid-cols-1 ll:gap-4 lg:mt-12 items-center justify-center lg:ml-36 mmd:ml-24 mmmd:ml-16 ssm:ml-0 gap-24">
         <Link
           to="https://shopping-app-v2.vercel.app/"
           className="wrapper gia:w-inp text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill xxl:w-inp"

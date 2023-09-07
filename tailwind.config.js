@@ -9,6 +9,7 @@ export default {
     './src/components/Projects.jsx',
     './src/components/Footer.jsx',
     './src/components/Contact.jsx',
+    './src/source/3d/Frame.jsx',
   ],
   theme: {
     extend: {

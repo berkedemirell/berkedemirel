@@ -1,19 +1,19 @@
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import Hero from './components/Hero.jsx'
+import Skills from "./components/Skills.jsx";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="w-full relative overflow-x-hidden">
+    <div className="w-full relative overflow-x-hidden font-rem">
       <Navbar />
-      <Hero />
+      <Hero/>
       <Skills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
