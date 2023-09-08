@@ -11,6 +11,7 @@ const Hero = () => {
   };
 
   return (
+    
     <div className="w-full bg-bblack h-screen font-texturina relative border-b border-slate-700 gia:pl-14 gia:pr-14">
       <div className="flex flex-row relative ">
         <div className=" absolute ml-14 flex flex-col items-start">
