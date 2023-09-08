@@ -1,5 +1,3 @@
-// import img from "../source/images/ben.png";
-
 import { useEffect, useRef, useState } from "react";
 
 const Contact = () => {
@@ -79,7 +77,7 @@ const Contact = () => {
 
   return (
     <div
-      className="w-full font-texturina pb-6 h-fit border-b border-slate-700 bg-dark-night bg-cover text-slate-50 relative"
+      className="w-full font-texturina pb-6 h-fit border-b border-slate-700 bg-bblack bg-cover text-slate-50 relative"
       ref={targetElement}
       id="contact"
     >

@@ -14,8 +14,6 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'night' : "url('./source/images/sky.webp')",
-        'dark-night' : "url('./source/images/dark-sky.webp')",
         'shopping' : "url('./source/images/shopping.webp')",
         'multi' : "url('./source/images/multi-step.webp')",
         'rps' : "url('./source/images/rps.webp')",
