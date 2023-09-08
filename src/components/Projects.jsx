@@ -26,8 +26,6 @@ const Projects = () => {
     setIsInView(true);
   };
 
-  console.log(data.data);
-
   return (
     <div
       className={`w-full h-fit mmmd:p-12 gia:p-0  gia:flex gia:flex-col gia:items-center gia:justify-center gia:pt-12 mmmd:pt-10 bg-bblack font-texturina p-20 border-b border-slate-700`}
@@ -46,7 +44,6 @@ const Projects = () => {
       >
         {data.data.map((d,i) => {
           return (
-
             <Link
               key={i}
               to={d.url}
