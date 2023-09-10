@@ -1,4 +1,4 @@
-import js from "../source/images/js.png";
+import js from "../source/images/js.webp";
 import css from "../source/images/css.webp";
 import html from "../source/images/html.webp";
 import react from "../source/images/react.webp";
