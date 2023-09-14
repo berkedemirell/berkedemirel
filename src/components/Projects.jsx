@@ -28,7 +28,7 @@ const Projects = () => {
 
   return (
     <div
-      className={`w-full h-fit mmmd:p-12 gia:p-0  gia:flex gia:flex-col gia:items-center gia:justify-center gia:pt-12 mmmd:pt-10 bg-bblack font-texturina p-20 border-b border-slate-700`}
+      className={`w-full h-fit mmmd:p-12 gia:p-0 gia:flex gia:flex-col gia:items-center gia:justify-center gia:pt-12 mmmd:pt-10 bg-bblack font-texturina p-20 border-b border-slate-700`}
       id="projects"
       ref={targetElement}
     >
@@ -64,7 +64,7 @@ const Projects = () => {
                     <p className="text-sm font-semibold xxl:text-lg gia:text-xl">
                       {d.desc}
                     </p>
-                    <p className="text-sm mt-12 uppercase xxl:text-lg gia:text-xl">
+                    <p className="text-sm mt-12 uppercase xxl:text-lg gia:text-xl sms:text-xs">
                       {d.tools}
                     </p>
                   </div>
