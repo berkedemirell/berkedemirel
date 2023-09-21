@@ -40,6 +40,7 @@ export default {
         'skill-card' : '15rem',
         'skill-container' : '20rem',
         'wrapper' : '25rem',
+        'wrapper2' : '27rem',
         'ben' : '15rem',
 
       },

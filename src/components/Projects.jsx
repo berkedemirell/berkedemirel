@@ -48,7 +48,7 @@ const Projects = ({t}) => {
             <Link
               key={i}
               to={d.url}
-              className="wrapper gia:w-inp text-bblack font-bold h-wrapper w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill xxl:w-inp"
+              className="wrapper gia:w-inp text-bblack font-bold h-wrapper sms:h-wrapper2 w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill xxl:w-inp"
               target="_blank"
               aria-label={d.aria}
             >
