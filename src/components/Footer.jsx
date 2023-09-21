@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import {FaTwitter,FaGithub, FaLinkedin, FaYoutube, FaNpm, FaReact, FaJs} from 'react-icons/fa'
 import { useEffect, useRef, useState } from "react";
 
-const Footer = () => {
+
+const Footer = ({t}) => {
   const targetElement = useRef(null);
   const [isInView, setIsInView] = useState(false);
 
@@ -77,11 +79,11 @@ const Footer = () => {
             </li>
           </ul>
           <div>
-            <p className="text-sm font-bold text-slate-300 text-center gia:text-xl">
-              All Rights Reserved Berke Demirel &copy; 2023
+            <p className="text-sm font-bold text-slate-300 text-center gia:text-xl capitalize">
+              {t("footer.rights")} Berke Demirel &copy; 2023
             </p>
             <p className="text-center mt-2 text-slate-300 font-bold text-sm gia:text-xl">
-              Contact: dberke00@gmail.com
+              {t("nav.contact")}: dberke00@gmail.com
             </p>
           </div>
         </div>

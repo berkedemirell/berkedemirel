@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
+/* eslint-disable react/prop-types */
 
-const Contact = () => {
+
+const Contact = ({t}) => {
 
   const [inputs, setInputs] = useState({
     name: "",
@@ -48,7 +50,7 @@ const Contact = () => {
     if(inputs.name.length !== 0 && inputs.email.length !== 0 && inputs.message.length !== 0) {
       setMessage({
         isSuccess:true,
-        message: 'Successfull! I am not going to receive that message tho, but thanks for your effort. <3'
+        message: t("message.message2")
       })
       setTimeout(() => {
         setMessage('')
@@ -65,7 +67,7 @@ const Contact = () => {
     } else {
       setMessage({
         isSuccess: false,
-        message: 'Fill all empty inputs please!'
+        message: t("message.message1")
       })
       setTimeout(() => {
         setMessage('')
@@ -82,7 +84,7 @@ const Contact = () => {
       id="contact"
     >
       <h1 className="text-center gia:text-6xl text-4xl pt-6 sms:text-2xl uppercase sms:pt-2">
-        Contact
+        {t("nav.contact")}
       </h1>
       {message?.message?.length > 1 && <div className={`w-skill mmmd:w-mes-div mes absolute left-0 top-12 ml-10 text-slate-50 ll:p-2 ll:ml-4 lg:top-4 p-4 rounded-lg mmmd:text-xs font-bold tracking-wide ${message.isSuccess ? 'bg-lime-900' : 'bg-red-900'}`}><p>{message.message}</p></div>}
       <div className={`w-full h-fit ${isInView ? 'flex' : 'hidden'} flex-row items-start justify-center mt-12 sms:mt-8`}>
@@ -92,12 +94,12 @@ const Contact = () => {
         >
           <div className="flex flex-col items-start justify-center">
             <label htmlFor="" className="uppercase gia:text-lg text-xs pb-1">
-              name surname:
+              {t("form.input1")}:
             </label>
             <input
               type="text"
               id="name"
-              placeholder="Name and Surname"
+              placeholder={`${t("form.input1")}`}
               ref={nameRef}
               name="name"
               onChange={handleChange}
@@ -106,7 +108,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col">
             <label htmlFor="" className="uppercase text-xs pb-1 gia:text-lg">
-              email:
+              {t("form.input2")}:
             </label>
             <input
               type="email"
@@ -114,13 +116,13 @@ const Contact = () => {
               ref={emailRef}
               name="email"
               onChange={handleChange}
-              placeholder="Email"
+              placeholder={`${t("form.input2")}`}
               className="p-2 w-inp rounded-md text-bblack gia:h-12 gia:text-2xl mmmd:w-inp2 xxl:w-inp3 ss:w-skill"
             />
           </div>
           <div className="flex flex-col">
             <label htmlFor="" className="uppercase text-xs pb-1 gia:text-lg">
-              message:
+              {t("form.input3")}:
             </label>
             <textarea
               type="text"
@@ -128,13 +130,13 @@ const Contact = () => {
               ref={messageRef}
               name="message"
               onChange={handleChange}
-              placeholder="Message"
+              placeholder={`${t("form.input3")}`}
               className="p-2 rounded-md text-bblack w-inp mmmd:w-inp2 xxl:w-inp3 gia:text-2xl ss:w-skill"
               rows={6}
             />
           </div>
             <button onClick={handleMessage} className="bg-slate-50 ssm:text-sm text-bblack pr-10 pl-10 pt-1 pb-1 hover:bg-slate-400 transition-all duration-500 active:bg-slate-50 uppercase font-bold">
-              Send
+              {t("form.send_button")}
             </button>
         </form>
       </div>

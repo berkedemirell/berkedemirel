@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
 
 import { Link } from "react-router-dom";
 import { FaArrowDown } from "react-icons/fa";
 
-const Hero = () => {
+
+const Hero = ({t}) => {
 
   const handleScroll = (e) => {
     e.preventDefault();
@@ -15,23 +17,23 @@ const Hero = () => {
     <div className="w-full bg-bblack h-screen font-texturina relative border-b border-slate-700 gia:pl-14 gia:pr-14">
       <div className="flex flex-row relative ">
         <div className=" absolute ml-14 flex flex-col items-start">
-          <div className="text-3xl gia:text-5xl ss:flex ss:flex-col smss:flex-col smss:items-start ss:items-start ss:justify-start flex xxl:text-4xl flex-row items-start mt-36 justify-start flex font-bold text-slate-200 ssm:text-xl sms:text-xl">
-            <p className="ss:text-xl">Hi, I am</p>
+          <div className="text-3xl gia:text-5xl zzz:flex zzz:flex-col flex xxl:text-4xl flex-row items-start mt-36 justify-start flex font-bold text-slate-200 ssm:text-xl sms:text-xl">
+            <p className="ss:text-xl">{t("hero.title")}</p>
             <section
-              className={`${window.innerWidth > 1700 ? 'animation2' : 'animation'} h-10 gia:h-16 ml-2 overflow-hidden smss:-translate-x-4`}
+              className={`${window.innerWidth > 1700 ? 'animation2' : 'animation'} h-10 gia:h-16 ml-2 zzz:ml-0 overflow-hidden`}
             >
               <div className="">
-                <div className=" inline-block h-12 gia:h-16 bg-bblack text-slate-50 pl-2 pr-2">
+                <div className=" inline-block h-12 gia:h-16 bg-bblack text-slate-50 pl-2 pr-2 zzz:pl-0">
                   Berke Demirel
                 </div>
               </div>
               <div className="">
-                <div className=" inline-block h-12 gia:h-16 bg-slate-50 text-bblack pl-2 pr-2">
+                <div className=" inline-block h-12 gia:h-16 bg-slate-50 text-bblack pl-2 pr-2 zzz:pl-0">
                   Tom Bombadil
                 </div>
               </div>
               <div className="">
-                <div className=" inline-block h-12 gia:h-16 bg-red-800 text-slate-50 pl-2 pr-2">
+                <div className=" inline-block h-12 gia:h-16 bg-red-800 text-slate-50 pl-2 pr-2 zzz:pl-0">
                   Junior Frontend Developer
                 </div>
               </div>
@@ -51,7 +53,7 @@ const Hero = () => {
             onClick={handleScroll}
             aria-label="down arrow icon"
           >
-            Learn More{" "}
+            {t("hero.nav_button")}{" "}
             <span className="shake">
               <FaArrowDown />
             </span>

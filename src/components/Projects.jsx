@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
-import data from "../source/data/data.json";
 
-const Projects = () => {
+
+const Projects = ({t}) => {
   const targetElement = useRef(null);
   const [isInView, setIsInView] = useState(false);
 
@@ -34,7 +35,7 @@ const Projects = () => {
     >
       <div className="text-slate-50 text-center">
         <p className="text-4xl sms:text-2xl uppercase gia:text-6xl">
-          My Projects
+          {t("nav.projects")}
         </p>
       </div>
       <div
@@ -42,7 +43,7 @@ const Projects = () => {
           isInView ? "grid" : "hidden"
         } grid-cols-2 gia:gap-x-52 gia:pb-36 gia:pl-32 lg:grid-cols-1 ll:gap-4 lg:mt-12 items-center justify-center lg:ml-36 mmd:ml-24 mmmd:ml-16 ssm:ml-0 gap-24`}
       >
-        {data.data.map((d,i) => {
+        {t("cards", {returnObjects: true}).map((d,i) => {
           return (
             <Link
               key={i}
@@ -57,7 +58,7 @@ const Projects = () => {
               >
                 <div className="content" id="i0">
                   <div className={`w-full h-52 ${d.img} bg-cover bg-center rounded-xl`}></div>
-                  <div className={`text-center mt-2 pl-4 pr-4 ${d.title === 'Rock, Paper, Scissors' ? 'text-slate-50' : ''}`}>
+                  <div className={`text-center mt-2 pl-4 pr-4 ${d.aria === 'rock game card' ? 'text-slate-50' : ''}`}>
                     <p className="text-xl xxl:text-2xl gia:text-3xl">
                       {d.title}
                     </p>

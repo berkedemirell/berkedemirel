@@ -10,6 +10,11 @@ export default {
     './src/components/Footer.jsx',
     './src/components/Contact.jsx',
     './src/source/data/data.json',
+    './src/translations/en/translation.json',
+    './src/translations/tr/translation.json',
+    './src/translations/es/translation.json',
+    './src/translations/jp/translation.json',
+    './src/translations/fr/translation.json',
   ],
   theme: {
     extend: {
@@ -72,6 +77,7 @@ export default {
         'gia' : {'min' : '1700px'},
         'ss' : {'max' : '400px'},
         'sss' : {'max' : '350px'},
+        'zzz' : {'max' : '625px'},
       },
       translate: {
         'a' : '28rem',

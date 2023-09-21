@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import js from "../source/images/js.webp";
 import css from "../source/images/css.webp";
 import html from "../source/images/html.webp";
@@ -5,7 +6,7 @@ import react from "../source/images/react.webp";
 import tailwind from "../source/images/tailwind.webp";
 import { useEffect, useRef, useState } from "react";
 
-const Skills = () => {
+const Skills = ({t}) => {
   const targetElement = useRef(null);
   const [isInView, setIsInView] = useState(false);
 
@@ -35,7 +36,7 @@ const Skills = () => {
       ref={targetElement}
     >
       <h1 className="text-4xl mb-12 mt-12 mmd:mb-6 mmd:mt-6 mmd:text-3xl sms:text-2xl uppercase sms:mr-12 ss:mr-28 gia:text-6xl">
-        Skills
+        {t("nav.skills")}
       </h1>
       <div
         className={`overflow-hidden w-full bg-bblack whitespace-nowrap outer-slides ${

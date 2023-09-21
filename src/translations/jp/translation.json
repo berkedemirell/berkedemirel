@@ -1,0 +1,83 @@
+{
+    "cards": [
+      {
+        "title": "ショッピングアプリ",
+        "desc": "ログイン、ログアウトして商品をカートに入れて購入できるシンプルなショッピングアプリです。",
+        "img": "bg-shopping",
+        "style": "bg-gradient-to-r from-fuchsia-300 to-fuchsia-500 shadow-shop",
+        "url": "https://shopping-app-v2.vercel.app/",
+        "aria": "shopping app card",
+        "tools": "React, Tailwind, Context"
+      },
+      {
+        "title": "複数段階のフォーム",
+        "desc": "ゲーム登録用の複数ステップのフォーム。情報とサブスクリプションの詳細を入力します。",
+        "img": "bg-multi",
+        "style": "bg-gradient-to-r from-sky-100 to-sky-200 shadow-multi",
+        "url": "https://multistep-form-drab.vercel.app/",
+        "aria": "multi step form card",
+        "tools": "Vanilla Js, Tailwind"
+      },
+      {
+        "title": "じゃんけんゲーム",
+        "desc": "シンプルなじゃんけんゲーム。きっと私には勝てないよ。 ",
+        "img": "bg-rps",
+        "style": "bg-gradient-to-r from-blue-900 to-blue-950 shadow-rcs",
+        "url": "https://rockpaperscissors-game-virid.vercel.app/",
+        "aria": "rock game card",
+        "tools": "Vanilla Js, SCSS"
+      },
+      {
+        "title": "IPトラッカー",
+        "desc": "プロジェクトにはデフォルトで IP 情報が表示されます。任意のIPを入力すると情報が表示されます。",
+        "img": "bg-ipt",
+        "style": "bg-gradient-to-r from-orange-200 to-orange-300 shadow-ipt",
+        "url": "https://ip-tracker-nine-murex.vercel.app/",
+        "aria": "ip tracker card",
+        "tools": "React, Tailwind, Leaflet"
+      },
+      {
+        "title": "絞首刑執行人のゲーム",
+        "desc": "ハングマン ゲームが YouTube から盗まれました。少し改良しました。キャンペーンチャレンジを完了してみてください.",
+        "img": "bg-hang",
+        "style": "bg-gradient-to-r from-amber-100 to-orange-100 shadow-hang",
+        "url": "https://hangman-gamma-coral.vercel.app/",
+        "aria": "hangman game card",
+        "tools": "TypeScript, React, Tailwind"
+      },
+      {
+        "title": "ポケモンゲーム",
+        "desc": "シンプルなターン制ポケモンゲーム。それほど難しくも複雑でもありませんが、これは私の最初のプロジェクトの 1 つです.",
+        "img": "bg-pok",
+        "style": "bg-gradient-to-r from-slate-50 to-slate-100 shadow-pok",
+        "url": "https://pokemon-game-rho.vercel.app/",
+        "aria": "pokemon game card",
+        "tools": "React, Css"
+      }
+    ],
+  
+    "hero": {
+      "title": "こんにちは、私です",
+      "nav_button": "もっと詳しく知る"
+    },
+    "nav": {
+      "skills": "スキル",
+      "projects": "私のプロジェクト",
+      "contact": "接触"
+    },
+    "form": {
+      "input1": "名前名字",
+      "input2": "Eメール",
+      "input3": "メッセージ",
+      "send_button": "送信"
+    },
+    "footer": {
+      "rights": "無断転載を禁じます"
+    },
+    "message": {
+      "message1" : "空白の項目をすべて埋めてください。",
+      "message2" : "成功しました！そのメッセージは受け取れませんが、あなたの努力に感謝します。 <3"
+    }
+    
+  }
+  

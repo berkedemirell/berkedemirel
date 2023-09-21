@@ -1,59 +1,25 @@
 
 {
-   "data": [
+    "lang-buttons" : [
         {
-            "title": "Shopping App",
-            "desc": "A simple shopping app that allows you to login, logout, adding products in your cart and also you can purchase.",
-            "img" : "bg-shopping",
-            "style": "bg-gradient-to-r from-fuchsia-300 to-fuchsia-500 shadow-shop",
-            "url": "https://shopping-app-v2.vercel.app/",
-            "aria": "shopping app card",
-            "tools": "React, Tailwind, Context"
+            "title" : "English",
+            "id" : "en"
         },
         {
-            "title": "Multi Step Form",
-            "desc": "Multi step form for a gaming registration. Enter information and subscription details.",
-            "img" : "bg-multi",
-            "style": "bg-gradient-to-r from-sky-100 to-sky-200 shadow-multi",
-            "url": "https://multistep-form-drab.vercel.app/",
-            "aria": "multi step form card",
-            "tools": "Vanilla Js, Tailwind"
+            "title" : "Spanish",
+            "id" : "es"
         },
         {
-            "title": "Rock, Paper, Scissors",
-            "desc": "A simple rock, paper, scissors game. I bet you can't beat me.",
-            "img" : "bg-rps",
-            "style": "bg-gradient-to-r from-blue-900 to-blue-950 shadow-rcs",
-            "url": "https://rockpaperscissors-game-virid.vercel.app/",
-            "aria": "rock game card",
-            "tools": "Vanilla Js, SCSS"
+            "title" : "Turkish",
+            "id" : "tr"
         },
         {
-            "title": "IP Tracker",
-            "desc": "Project shows you your ip informations by default. Enter any ip to learn its informations.",
-            "img" : "bg-ipt",
-            "style": "bg-gradient-to-r from-orange-200 to-orange-300 shadow-ipt",
-            "url": "https://ip-tracker-nine-murex.vercel.app/",
-            "aria": "ip tracker card",
-            "tools": "React, Tailwind, Leaflet"
+            "title": "Japanese",
+            "id" : "jp"
         },
         {
-            "title": "Hangman",
-            "desc": "A hangman game that I stole from youtube. I improved it little bit. Try to complete my campaign challenge.",
-            "img" : "bg-hang",
-            "style": "bg-gradient-to-r from-amber-100 to-orange-100 shadow-hang",
-            "url": "https://hangman-gamma-coral.vercel.app/",
-            "aria": "hangman game card",
-            "tools": "TypeScript, React, Tailwind"
-        },
-        {
-            "title": "Pokemon Game",
-            "desc": "A simple turn based pokemon game. It's not that hard and complicated but one of my first projects.",
-            "img" : "bg-pok",
-            "style": "bg-gradient-to-r from-slate-50 to-slate-100 shadow-pok",
-            "url": "https://pokemon-game-rho.vercel.app/",
-            "aria": "pokemon game card",
-            "tools": "React, Css"
+            "title" : "French",
+            "id" : "fr"
         }
     ]
 }
