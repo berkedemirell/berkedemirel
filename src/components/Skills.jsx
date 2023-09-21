@@ -35,9 +35,12 @@ const Skills = ({t}) => {
       id="skills"
       ref={targetElement}
     >
-      <h1 className="text-4xl mb-12 mt-12 mmd:mb-6 mmd:mt-6 mmd:text-3xl sms:text-2xl uppercase sms:mr-12 ss:mr-28 gia:text-6xl">
-        {t("nav.skills")}
-      </h1>
+      <div>
+        <h1 className="text-4xl mb-12 mt-12 mmd:mb-6 mmd:mt-6 mmd:text-3xl sms:text-2xl uppercase sms:mr-12 ss:mr-28 gia:text-6xl">
+          {t("nav.skills")}
+        </h1>
+
+      </div>
       <div
         className={`overflow-hidden w-full bg-bblack whitespace-nowrap outer-slides ${
           isInView ? "" : "hidden"

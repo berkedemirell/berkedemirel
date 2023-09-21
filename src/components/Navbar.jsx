@@ -117,7 +117,7 @@ const Navbar = ({ handleLangChange, t, i18n }) => {
                 aria-label="go to skills"
                 onClick={handleScroll}
               >
-                Skills
+                {t("nav.skills")}
               </Link>
               <Link
                 to="/"
@@ -126,7 +126,7 @@ const Navbar = ({ handleLangChange, t, i18n }) => {
                 aria-label="go to projects"
                 onClick={handleScroll}
               >
-                My Projects
+                {t("nav.projects")}
               </Link>
               <Link
                 to="/"
@@ -135,7 +135,7 @@ const Navbar = ({ handleLangChange, t, i18n }) => {
                 aria-label="go to contact"
                 onClick={handleScroll}
               >
-                Contact
+                {t("nav.contact")}
               </Link>
             </div>
           )}

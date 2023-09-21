@@ -16,7 +16,7 @@ const Hero = ({t}) => {
     
     <div className="w-full bg-bblack h-screen font-texturina relative border-b border-slate-700 gia:pl-14 gia:pr-14">
       <div className="flex flex-row relative ">
-        <div className=" absolute ml-14 flex flex-col items-start">
+        <div className=" absolute ml-14 sms:ml-6 flex flex-col items-start">
           <div className="text-3xl gia:text-5xl zzz:flex zzz:flex-col flex xxl:text-4xl flex-row items-start mt-36 justify-start flex font-bold text-slate-200 ssm:text-xl sms:text-xl">
             <p className="ss:text-xl">{t("hero.title")}</p>
             <section
