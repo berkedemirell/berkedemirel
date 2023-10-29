@@ -25,6 +25,8 @@ export default {
         'ipt' : "url('./source/images/ipt_1.webp')",
         'hang' : "url('./source/images/hangman_1.webp')",
         'pok' : "url('./source/images/pokemon.webp')",
+        'aim' : "url('./source/images/aim.png')",
+        'chatt' : "url('./source/images/chat.png')",
       },
       fontFamily : {
         'texturina' : ['Texturina']
@@ -64,6 +66,8 @@ export default {
         'ipt': '0px 10px 30px #f0a73d',
         'hang': '0px 10px 30px #ddd18c',
         'pok': '0px 10px 30px #eee9c6',
+        'aim': '0px 10px 30px #720413',
+        'chat': '0px 10px 30px #6c59c7',
       },
       screens: {
         'll' : {'max' : '1100px'},

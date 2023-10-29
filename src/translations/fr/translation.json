@@ -53,7 +53,26 @@
         "url": "https://pokemon-game-rho.vercel.app/",
         "aria": "pokemon game card",
         "tools": "React, Css"
+      },
+      {
+        "title": "Jeu de visée",
+        "desc": "La logique du jeu est de réaliser le plus de cercles dans le temps imparti. Le rayon du cercle varie selon le mode de jeu sélectionné.",
+        "img": "bg-aim",
+        "style": "bg-gradient-to-r from-red-900 to-red-950 shadow-aim",
+        "url": "https://aim-game-psi.vercel.app/",
+        "aria": "aim game card",
+        "tools": "React, Tailwind"
+      },
+      {
+        "title": "Application de Chat",
+        "desc": "Il s'agit d'une application de chat qui vous permet d'envoyer un message, de répondre à un message et de créer un nouveau chat.",
+        "img": "bg-chatt",
+        "style": "bg-gradient-to-r from-indigo-600 to-indigo-700 shadow-chat",
+        "url": "https://chatting-app-wine.vercel.app/",
+        "aria": "chat app card",
+        "tools": "React, Tailwind"
       }
+
     ],
   
     "hero": {

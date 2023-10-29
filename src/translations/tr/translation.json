@@ -53,6 +53,24 @@
         "url": "https://pokemon-game-rho.vercel.app/",
         "aria": "pokemon game card",
         "tools": "React, Css"
+      },
+      {
+        "title": "Hedef Oyunu",
+        "desc": "Oyunun amacı seçilen sürede en çok hedefi vurmaktır. Dairenin yarıçapı seçilen oyun moduna göre değişiklik gösterir.",
+        "img": "bg-aim",
+        "style": "bg-gradient-to-r from-red-900 to-red-950 shadow-aim",
+        "url": "https://aim-game-psi.vercel.app/",
+        "aria": "aim game card",
+        "tools": "React, Tailwind"
+      },
+      {
+        "title": "Sohbet Uygulaması",
+        "desc": "Mesaj göndermenizi, mesaj yanıtlamanızı ve yeni sohbet oluşturmanızı sağlayan bir sohbet uygulamasıdır.",
+        "img": "bg-chatt",
+        "style": "bg-gradient-to-r from-indigo-600 to-indigo-700 shadow-chat",
+        "url": "https://chatting-app-wine.vercel.app/",
+        "aria": "chat app card",
+        "tools": "React, Tailwind"
       }
     ],
   

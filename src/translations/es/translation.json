@@ -53,6 +53,24 @@
         "url": "https://pokemon-game-rho.vercel.app/",
         "aria": "pokemon game card",
         "tools": "React, Css"
+      },
+      {
+        "title": "Juego de Apuntar",
+        "desc": "La lógica del juego es alcanzar la mayor cantidad de círculos en el tiempo seleccionado. El radio del círculo varía según el modo de juego seleccionado.",
+        "img": "bg-aim",
+        "style": "bg-gradient-to-r from-red-900 to-red-950 shadow-aim",
+        "url": "https://aim-game-psi.vercel.app/",
+        "aria": "aim game card",
+        "tools": "React, Tailwind"
+      },
+      {
+        "title": "Aplicación de Chat",
+        "desc": "Es una aplicación de chat que te permite enviar mensajes, responder mensajes y crear un nuevo chat.",
+        "img": "bg-chatt",
+        "style": "bg-gradient-to-r from-indigo-600 to-indigo-700 shadow-chat",
+        "url": "https://chatting-app-wine.vercel.app/",
+        "aria": "chat app card",
+        "tools": "React, Tailwind"
       }
     ],
   

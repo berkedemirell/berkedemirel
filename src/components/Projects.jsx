@@ -43,10 +43,10 @@ const Projects = ({t}) => {
           isInView ? "grid" : "hidden"
         } grid-cols-2 gia:gap-x-52 gia:pb-36 gia:pl-32 lg:grid-cols-1 ll:gap-4 lg:mt-12 items-center justify-center lg:ml-36 mmd:ml-24 mmmd:ml-16 ssm:ml-0 gap-24`}
       >
-        {t("cards", {returnObjects: true}).map((d,i) => {
+        {t("cards", {returnObjects: true}).map((d) => {
           return (
             <Link
-              key={i}
+              key={d.title}
               to={d.url}
               className="wrapper gia:w-inp text-bblack font-bold h-wrapper sms:h-wrapper2 w-wrapper mmmd:w-inp2 p-12 ll:p-2 sms:w-skill xxl:w-inp"
               target="_blank"
@@ -58,14 +58,14 @@ const Projects = ({t}) => {
               >
                 <div className="content" id="i0">
                   <div className={`w-full h-52 ${d.img} bg-cover bg-center rounded-xl`}></div>
-                  <div className={`text-center mt-2 pl-4 pr-4 ${d.aria === 'rock game card' ? 'text-slate-50' : ''}`}>
+                  <div className={`text-center mt-2 pl-4 pr-4 ${d.aria === 'rock game card' || d.aria === 'aim game card' || d.aria === 'chat app card' ? 'text-slate-50' : ''}`}>
                     <p className="text-xl xxl:text-2xl gia:text-3xl">
                       {d.title}
                     </p>
-                    <p className="text-sm font-semibold xxl:text-lg gia:text-xl">
+                    <p className="text-sm font-bold xxl:text-lg gia:text-xl">
                       {d.desc}
                     </p>
-                    <p className="text-sm mt-12 uppercase xxl:text-lg gia:text-xl sms:text-xs">
+                    <p className="text-sm mt-12 uppercase xxl:text-lg gia:text-xl sms:text-xs font-bold">
                       {d.tools}
                     </p>
                   </div>
