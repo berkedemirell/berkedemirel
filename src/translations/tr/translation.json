@@ -22,7 +22,7 @@
         "title": "Taş, Kağıt, Makas",
         "desc": "Basit bit taş kağıt makas oyunu.",
         "img": "bg-rps",
-        "style": "bg-gradient-to-r from-blue-900 to-blue-950 shadow-rcs",
+        "style": "bg-gradient-to-r from-blue-900 to-blue-950 shadow-rcs text-slate-50",
         "url": "https://rockpaperscissors-game-virid.vercel.app/",
         "aria": "rock game card",
         "tools": "Vanilla Js, SCSS"
@@ -46,19 +46,19 @@
         "tools": "TypeScript, React, Tailwind"
       },
       {
-        "title": "Pokemon Oyunu",
-        "desc": "Basit bir sıra tabanlı pokemon oyunu. O kadar zor ve karmaşık değil ama ilk projelerimden biri.",
-        "img": "bg-pok",
-        "style": "bg-gradient-to-r from-slate-50 to-slate-100 shadow-pok",
-        "url": "https://pokemon-game-rho.vercel.app/",
-        "aria": "pokemon game card",
-        "tools": "React, Css"
+        "title": "Müzik Uygulaması",
+        "desc": "O günkü ruh halinize göre size müzik öneren basit bir müzik öneri uygulaması.",
+        "img": "bg-mus",
+        "style": "bg-gradient-to-r from-fuchsia-700 to-fuchsia-900 shadow-pok text-slate-50",
+        "url": "https://musicapp-ruddy.vercel.app/",
+        "aria": "music app card",
+        "tools": "React, Tailwind"
       },
       {
         "title": "Hedef Oyunu",
         "desc": "Oyunun amacı seçilen sürede en çok hedefi vurmaktır. Dairenin yarıçapı seçilen oyun moduna göre değişiklik gösterir.",
         "img": "bg-aim",
-        "style": "bg-gradient-to-r from-red-900 to-red-950 shadow-aim",
+        "style": "bg-gradient-to-r from-red-900 to-red-950 shadow-aim text-slate-50",
         "url": "https://aim-game-psi.vercel.app/",
         "aria": "aim game card",
         "tools": "React, Tailwind"
@@ -67,7 +67,7 @@
         "title": "Sohbet Uygulaması",
         "desc": "Mesaj göndermenizi, mesaj yanıtlamanızı ve yeni sohbet oluşturmanızı sağlayan bir sohbet uygulamasıdır.",
         "img": "bg-chatt",
-        "style": "bg-gradient-to-r from-indigo-600 to-indigo-700 shadow-chat",
+        "style": "bg-gradient-to-r from-indigo-600 to-indigo-700 shadow-chat text-slate-50",
         "url": "https://chatting-app-wine.vercel.app/",
         "aria": "chat app card",
         "tools": "React, Tailwind"

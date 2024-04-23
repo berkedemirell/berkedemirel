@@ -58,7 +58,7 @@ const Projects = ({t}) => {
               >
                 <div className="content" id="i0">
                   <div className={`w-full h-52 ${d.img} bg-cover bg-center rounded-xl`}></div>
-                  <div className={`text-center mt-2 pl-4 pr-4 ${d.aria === 'rock game card' || d.aria === 'aim game card' || d.aria === 'chat app card' ? 'text-slate-50' : ''}`}>
+                  <div className={`text-center mt-2 pl-4 pr-4}`}>
                     <p className="text-xl xxl:text-2xl gia:text-3xl">
                       {d.title}
                     </p>

@@ -49,7 +49,7 @@ const Navbar = ({ handleLangChange, t, i18n }) => {
               className="w-20 h-20 xxl:w-24 xxl:ml-4 xxl:h-24 rounded-full mmmd:w-14 mmmd:h-14 transition-all duration-500 hover:transform hover:scale-105"
             />
           </Link>
-          <div className="absolute top-28 mmmd:top-24 mmmd:left-4 gia:top-36 gia:left-6 z-10">
+          <div className="absolute top-28 xxl:top-32 xxl:left-10 mmmd:top-24 mmmd:left-4 gia:top-36 gia:left-6 z-10">
             <button
               className="text-slate-50 flex flex-row items-center gap-1 hover:text-slate-400 transition-all duration-500"
               onClick={handleLangDrop}

@@ -22,7 +22,7 @@
         "title": "Pierre Papier Ciseaux",
         "desc": "Un simple jeu de pierre, papier, ciseaux. Je parie que tu ne peux pas me battre.",
         "img": "bg-rps",
-        "style": "bg-gradient-to-r from-blue-900 to-blue-950 shadow-rcs",
+        "style": "bg-gradient-to-r from-blue-900 to-blue-950 shadow-rcs text-slate-50",
         "url": "https://rockpaperscissors-game-virid.vercel.app/",
         "aria": "rock game card",
         "tools": "Vanilla Js, SCSS"
@@ -46,19 +46,19 @@
         "tools": "TypeScript, React, Tailwind"
       },
       {
-        "title": "Jeu Pokémon",
-        "desc": "Un jeu Pokémon simple au tour par tour. Ce n'est pas si dur et compliqué mais c'est un de mes premiers projets.",
-        "img": "bg-pok",
-        "style": "bg-gradient-to-r from-slate-50 to-slate-100 shadow-pok",
-        "url": "https://pokemon-game-rho.vercel.app/",
-        "aria": "pokemon game card",
-        "tools": "React, Css"
+        "title": "Application Musicale",
+        "desc": "Une application simple de recommandation musicale qui vous suggère une musique en fonction de votre humeur du jour.",
+        "img": "bg-mus",
+        "style": "bg-gradient-to-r from-fuchsia-700 to-fuchsia-900 shadow-pok text-slate-50",
+        "url": "https://musicapp-ruddy.vercel.app/",
+        "aria": "music app card",
+        "tools": "React, Tailwind"
       },
       {
         "title": "Jeu de visée",
         "desc": "La logique du jeu est de réaliser le plus de cercles dans le temps imparti. Le rayon du cercle varie selon le mode de jeu sélectionné.",
         "img": "bg-aim",
-        "style": "bg-gradient-to-r from-red-900 to-red-950 shadow-aim",
+        "style": "bg-gradient-to-r from-red-900 to-red-950 shadow-aim text-slate-50",
         "url": "https://aim-game-psi.vercel.app/",
         "aria": "aim game card",
         "tools": "React, Tailwind"
@@ -67,7 +67,7 @@
         "title": "Application de Chat",
         "desc": "Il s'agit d'une application de chat qui vous permet d'envoyer un message, de répondre à un message et de créer un nouveau chat.",
         "img": "bg-chatt",
-        "style": "bg-gradient-to-r from-indigo-600 to-indigo-700 shadow-chat",
+        "style": "bg-gradient-to-r from-indigo-600 to-indigo-700 shadow-chat text-slate-50",
         "url": "https://chatting-app-wine.vercel.app/",
         "aria": "chat app card",
         "tools": "React, Tailwind"

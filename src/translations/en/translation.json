@@ -22,7 +22,7 @@
       "title": "Rock, Paper, Scissors",
       "desc": "A simple rock, paper, scissors game. I bet you can't beat me.",
       "img": "bg-rps",
-      "style": "bg-gradient-to-r from-blue-900 to-blue-950 shadow-rcs",
+      "style": "bg-gradient-to-r from-blue-900 to-blue-950 shadow-rcs text-slate-50",
       "url": "https://rockpaperscissors-game-virid.vercel.app/",
       "aria": "rock game card",
       "tools": "Vanilla Js, SCSS"
@@ -46,19 +46,19 @@
       "tools": "TypeScript, React, Tailwind"
     },
     {
-      "title": "Pokemon Game",
-      "desc": "A simple turn based pokemon game. It's not that hard and complicated but one of my first projects.",
-      "img": "bg-pok",
-      "style": "bg-gradient-to-r from-slate-50 to-slate-100 shadow-pok",
-      "url": "https://pokemon-game-rho.vercel.app/",
-      "aria": "pokemon game card",
-      "tools": "React, CSS"
+      "title": "Music App",
+      "desc": "A simple music recommendation app that suggest you a music according to your mood that day.",
+      "img": "bg-mus",
+      "style": "bg-gradient-to-r from-fuchsia-700 to-fuchsia-900 shadow-pok text-slate-50",
+      "url": "https://musicapp-ruddy.vercel.app/",
+      "aria": "music app card",
+      "tools": "React, Tailwind"
     },
     {
       "title": "Aim Game",
       "desc": "The logic of the game is to hit the most circles in the selected time. The radius of the circle varies according to selected game mode.",
       "img": "bg-aim",
-      "style": "bg-gradient-to-r from-red-900 to-red-950 shadow-aim",
+      "style": "bg-gradient-to-r from-red-900 to-red-950 shadow-aim text-slate-50",
       "url": "https://aim-game-psi.vercel.app/",
       "aria": "aim game card",
       "tools": "React, Tailwind"
@@ -67,7 +67,7 @@
       "title": "Chat Application",
       "desc": "It is an chat application that allows you to send message, reply message and create a new chat.",
       "img": "bg-chatt",
-      "style": "bg-gradient-to-r from-indigo-600 to-indigo-700 shadow-chat",
+      "style": "bg-gradient-to-r from-indigo-600 to-indigo-700 shadow-chat text-slate-50",
       "url": "https://chatting-app-wine.vercel.app/",
       "aria": "chat app card",
       "tools": "React, Tailwind"
